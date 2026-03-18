@@ -1,57 +1,70 @@
-.event-information {
-    position: relative;
+.event-card {
     width: 350px;
-    height: 350px;
-    padding: 0px;
+    min-height: 450px; 
     margin: 20px;
-    border: 2px solid white;
-    border-radius: 0px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #eee;
+    transition: transform 0.2s ease;
 }
 
-.event-information img {
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-card-top {
+    width: 100%;
+    height: 200px; 
+    flex-shrink: 0; 
+}
+
+.event-card-top img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.event-information-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: var(--primary);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: 0.5s ease;
+.event-card-bottom {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;   
 }
 
-.event-information:hover .event-information-overlay {
-    width: 100%;
-    left: 0;
+.event-card-bottom h3 {
+    margin: 0;
+    color: #ff4d6d;
+    font-size: 1.4rem;
+    line-height: 1.2;
 }
 
-.text {
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.event-meta {
+    font-size: 0.9rem;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
 }
 
-.text i {
-    margin-right: 10px;
+.event-meta p {
+    margin: 4px 0;
 }
 
-.text p {
-    color: white;
-    margin-top: 10px;
+.event-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+
+    word-wrap: break-word; 
+    margin-bottom: 10px;
 }
 
-.negative-time-remaining {
-    background-color: red;
-    color: white;
-    font-weight: 700;
-    padding: 10px;
-    text-align: center;
+
+.event-card-footer {
+    margin-top: auto; 
+    padding-top: 10px;
 }

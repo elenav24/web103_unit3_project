@@ -1,15 +1,26 @@
 .location-events {
     width: 100%;
+    margin-top: 80px; 
     display: flex;
     flex-direction: column;
-    flex-wrap: no-wrap;
 }
 
 .location-events header {
-    background-color: var(--main-color);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    background-color: var(--main-color, #ff4d6d); 
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.events-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    padding: 20px;
+    margin: 0; 
 }
 
 .location-image img {
@@ -23,6 +34,7 @@
     color: white;
     font-size: 0.8em;
     margin-bottom: 0px;
+
 }
 
 .location-events main {
