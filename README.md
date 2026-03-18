@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW16NHBvd3ZmNms2eDkzOTg2M2Z0bmhtM25zeHltZmlzZjFqbXJyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yb66V8xwCA4FaVKIHr/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![gif](https://github.com/user-attachments/assets/704045b0-f7f9-4c7a-bd13-51f28d0b1382)
 
 GIF created with Screen Recording and Giphy
 
